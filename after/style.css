@@ -1,0 +1,5 @@
+div::after {
+    content: "afterla eklenmiş yazı";
+    color:  red;
+    ;
+}
