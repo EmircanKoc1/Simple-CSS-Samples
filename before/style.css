@@ -1,0 +1,5 @@
+.before-sample::before {
+    content: "before ile  eklenmiş yazı";
+    color:  red;
+    
+}
