@@ -1,0 +1,7 @@
+input:out-of-range {
+    color: red;
+}
+
+input:in-range {
+    color: green;
+}

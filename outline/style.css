@@ -1,0 +1,11 @@
+div {
+    background-color: lime;
+    width: 200px;
+    height: 200px;
+    margin: 100px auto;
+
+    outline-style: solid;
+    outline-width: 10px;
+    outline-color: green;
+    outline-offset: 10px;
+}

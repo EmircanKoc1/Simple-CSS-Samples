@@ -1,0 +1,23 @@
+div.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border-color: red;
+    border-width: 10px;
+    border-style: solid;
+    padding: 15px;
+    box-sizing: border-box;
+
+}
+
+div.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border-color: red;
+    border-width: 10px;
+    border-style: solid;
+    padding: 15px;
+  
+
+}

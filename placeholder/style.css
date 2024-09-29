@@ -1,0 +1,15 @@
+input {
+    color: red;
+}
+
+textarea{
+    color:blue;
+}
+
+input::placeholder{
+    color: red;
+}
+
+textarea::placeholder{
+    color:blue;
+}

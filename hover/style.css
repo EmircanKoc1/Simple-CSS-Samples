@@ -1,0 +1,7 @@
+li:hover {
+    background-color: lightblue;
+}
+
+li:hover::selection {
+    background-color: red;
+}

@@ -1,0 +1,7 @@
+input:enabled{
+    background-color: yellow;
+}
+
+input:disabled{
+    background-color: red;
+}

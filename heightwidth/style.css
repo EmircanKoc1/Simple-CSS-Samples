@@ -1,0 +1,15 @@
+/* div{
+    background-color: green;
+    height: 300px;
+    width: 300px;
+} */
+ 
+html,body{
+    height: 100%;
+}
+
+div{
+    background-color: green;
+    height: 40%;
+    width: 40%;
+}

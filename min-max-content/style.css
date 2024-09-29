@@ -1,0 +1,9 @@
+/* div {
+    background-color: lime;
+    width: min-content;
+} */
+
+div {
+    background-color: lime;
+    width: max-content;
+}
