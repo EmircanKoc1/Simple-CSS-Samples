@@ -1,0 +1,14 @@
+a:active {
+    background-color: pink;
+    color: white;
+}
+a:visited{
+    color:aqua;
+    background-color: tomato;
+}
+a:any-link{
+background-color: gray;
+}
+a:link{
+    color:white;
+}
