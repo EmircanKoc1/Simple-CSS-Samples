@@ -1,0 +1,14 @@
+
+.box{
+    
+    width: 500px;
+    height: 200px;
+    padding: 40px;
+    border: 10px dashed black;
+    background-image: url(emoji.png);
+    background-position: center;
+    background-origin: border-box;
+    background-repeat: repeat;
+    /* background-size: cover; */
+    background-size: 100px;
+}
