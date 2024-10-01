@@ -1,0 +1,5 @@
+div {
+  /* white-space:nowrap; */
+  /* white-space: pre-wrap; */
+  white-space: pre-line;
+}
