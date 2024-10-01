@@ -1,0 +1,21 @@
+p {
+  border-color: green;
+  border-width: 2px;
+  border-style: solid;
+  width: 50px;
+}
+
+p.p1 {
+  word-break: break-all;
+
+}
+
+p.p2 {
+  overflow-wrap: break-word;
+
+}
+
+p.p3 {
+  hyphens: auto;
+
+}
