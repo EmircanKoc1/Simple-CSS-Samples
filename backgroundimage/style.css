@@ -1,0 +1,15 @@
+
+html{
+    height: 100%;
+}
+
+body{
+    background-color: aquamarine;
+    background-image: url(emoji.png);
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-repeat: space; */
+    /* background-repeat: repeat; */
+    /* background-repeat: round; */
+    background-repeat: no-repeat;
+}
