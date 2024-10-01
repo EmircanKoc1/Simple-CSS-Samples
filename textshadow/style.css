@@ -1,0 +1,26 @@
+h3 {
+  color: black;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 100px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+
+  color: wheat;
+
+  text-shadow: -3px 0px 10px red , 3px 0px 0 blue , 6px 0px 10px green;
+
+}
+
+h3:hover{
+  font-size: 50px;
+  text-align: center;
+  margin-top: 100px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+
+  color: aqua;
+
+  text-shadow: -3px 0px 10px red , 3px 0px 0 rgb(106, 255, 0) , 6px 0px 10px rgb(128, 0, 0);
+
+} 
