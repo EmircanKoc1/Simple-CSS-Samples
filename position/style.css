@@ -1,0 +1,50 @@
+
+html{
+    height: 100%;
+    padding:0%;
+}
+
+body{
+    height: 100%;
+    padding: 0%;
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    background-color: gray;
+    position: relative;
+
+    top:20%;
+}
+
+
+
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+}
+
+
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: absolute;
+    left: 400px;
+    bottom: 0;
+}
+
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+.fixed{
+    border: 3px solid green;
+    width: 100%;
+    position: fixed;
+    z-index: 90;
+}
