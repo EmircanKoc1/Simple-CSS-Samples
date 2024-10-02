@@ -1,0 +1,19 @@
+span {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    /* display: none; */
+    /* display: inline; */
+    /* display: block; */
+    display: inline-block;
+    /* visibility: hidden; */
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+    display: inline-block;
+    
+
+}
