@@ -1,0 +1,7 @@
+.box{
+  height: 100px;
+  border: 1px solid black;
+  overflow: auto;
+  /* overflow-y: hidden; */
+  /* overflow-x: hidden; */
+}
