@@ -1,0 +1,40 @@
+html,
+body {
+    height: 200%;
+    width: 100%;
+}
+
+body {
+    margin: 0%;
+}
+
+.main-container {
+    background-color: green;
+    height: 100%;
+    width: 100%;
+}
+
+.btn-wp {
+    /* background-color: wheat; */
+    width: 5%;
+    height: 7%;
+    text-align: center;
+    position: fixed;
+
+    bottom: 0;
+    right: 0;
+
+}
+
+.btn-wp button {
+    color: rgb(146, 4, 28);
+    background-color: rgb(204, 218, 214);
+    /* width: 100%;
+    height: 100%; */
+
+    border-radius: 20% 20% 50% 50%;
+
+    width: 100%;
+    height: 100%;
+
+}
