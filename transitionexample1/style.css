@@ -1,0 +1,46 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(18, 239, 228, 0.414);
+    /* transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 0s; */
+
+    transition: background-color 5s linear 0s, width 2s linear 0s;
+}
+
+.box:hover {
+    width: 400px;
+    background-color: red;
+}
+
+.buttrack-container {
+    margin: 20px;
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+    background-color: white;
+    position: relative;
+}
+.buttrack{
+    width: 100%;
+    height: 100%;
+    background-color: gold;
+    position: absolute;
+    z-index: 2;
+}
+
+.track{
+    position: absolute;
+    z-index: 3;
+    width: 0%;
+    height: 0%;
+    background-color: pink;
+    transition: width 1s linear 0s ;
+}
+
+.buttrack-container:hover .track{
+    width: 100%;
+    height: 100%;
+}
