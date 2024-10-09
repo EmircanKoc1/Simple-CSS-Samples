@@ -10,9 +10,10 @@ body {
 
 body {
     margin: 0;
+
 }
 
-.container{
+.container {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -22,14 +23,12 @@ body {
     flex-wrap: wrap;
 }
 
-.box{
-    border : 2px solid black;
+.box {
+    border: 2px solid black;
     width: 400px;
     height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
-
-
-

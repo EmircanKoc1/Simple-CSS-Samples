@@ -1,0 +1,45 @@
+.button2 {
+    appearance: none;
+    border: 2px solid green;
+    width: 50%;
+    height: 25%;
+    border-radius: 10px;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: small;
+    color: green;
+    position: relative;
+    overflow: hidden;
+    padding: 5px;
+    z-index: 1;
+    transition: color 1;
+}
+
+.button2::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: green;
+    transition: width 0.3s;
+    z-index: -1;
+}
+
+.button2:hover::before {
+    width: 100%;
+}
+
+.button2:hover {
+    color: white;
+    transform: scale(1.2);
+}
+
+.button2:active::before {
+    width: 0;
+}
+.button2:active{
+    color: green;
+}
