@@ -1,0 +1,50 @@
+div {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: yellow;
+    animation-name: test;
+    animation-duration: 4s;
+    /* animation-iteration-count: infinite; */
+    /* animation-direction: reverse; */
+    animation-fill-mode: forwards;
+}
+
+@keyframes test {
+    /* from{
+        background-color: yellow;
+    }
+    to {
+        background-color: red;
+    } */
+
+    0% {
+        background-color: yellow;
+        left: 0;
+        top: 0;
+    }
+
+    25% {
+        background-color: blue;
+        left: 200px;
+        top :0px;
+    }
+
+    50% {
+        background-color: red;
+        left: 200px;
+        top:200px;
+    }
+
+    75% {
+        background-color: black;
+        left: 0px;
+        top: 200px;
+    }
+    100% {
+        background-color: yellow;
+        left: 0px;
+        top: 0px;
+    }
+
+}
