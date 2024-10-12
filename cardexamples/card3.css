@@ -1,0 +1,71 @@
+.card3 {
+    background-color: white;
+    width: 300px;
+    height: 350px;
+    border: 1px solid gray;
+    position: relative;
+    border-radius: 10px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    box-shadow: 2px 2px 5px 1px gray, -2px -2px 2px 1px gray;
+    overflow: hidden;
+}
+
+.card3 div {
+    position: absolute;
+}
+
+
+.card3 .card-item-1 {
+    background-color: purple;
+    width: 200px;
+    height: 250px;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    border-bottom-right-radius: 60%;
+}
+
+.card3 .card-item-2 {
+    background-color: pink;
+    width: 250px;
+    height: 300px;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    border-top-left-radius: 100%;
+}
+
+.card3 .card-item-3 {
+    background-color: blue;
+    width: 200px;
+    height: 120px;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+    border-top-left-radius: 100%;
+}
+
+.card3 .card-item-4 {
+    background-color: green;
+    width: 170px;
+    height: 150px;
+    bottom: 0;
+    left: 0;
+    z-index: 4;
+    border-top-right-radius: 100%;
+}
+
+.card3 .card-content {
+    position: absolute;
+    z-index: 10;
+    color: white;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    top : 50%;
+    left : 50%;
+    transform: translate(-50%,-50%);
+    text-shadow: 1px 1px 0px black,-1px -1px 0px black
+}
