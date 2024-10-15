@@ -48,14 +48,22 @@ document.addEventListener("DOMContentLoaded", () => {
         nav_sidebar.style.display = "none";
         navbar_burger.style.backgroundColor = "pink";
         sidebarOpened = false;
-        console.log("sidebar closed", sidebarOpened, width);
+        firstClicked = false;
+        console.log(`sidebarClosed: ${sidebarOpened} , firstClicked: ${firstClicked}`, width,);
     }
 
     function openSidebar(width) {
+        
         nav_sidebar.style.display = "flex";
+        nav_sidebar.style.right = "-1000px";
+        window.requestAnimationFrame(() => {
+            nav_sidebar.style.right = "0px";
+        });
+
+
         navbar_burger.style.backgroundColor = "red";
         sidebarOpened = true;
-        console.log("sidebar opened", sidebarOpened, width);
+        console.log(`sidebarOpened : ${sidebarOpened} , firstClicked: ${firstClicked}`, width,);
     }
 
 
