@@ -108,7 +108,7 @@ nav {
         display: block;
     }
 
-    .navbar-burger:hover.navbar-burger {
+    /* .navbar-burger:hover.navbar-burger {
         background-color: green;
     }
 
@@ -119,7 +119,7 @@ nav {
 
     .navbar-burger:hover{
         display: none;
-    }
+    } */
 
 
 }
