@@ -12,8 +12,13 @@ body {
     height: 100%;
 }
 
+.container{
+    width: 100%;
+    height: 300%;
+}
 
 .navbar1 {
+    position: fixed;
     width: 100%;
     height: 15%;
     border: 5px solid black;
@@ -108,7 +113,7 @@ nav {
         display: block;
     }
 
-    /* .navbar-burger:hover.navbar-burger {
+    .navbar-burger:hover.navbar-burger {
         background-color: green;
     }
 
@@ -119,7 +124,7 @@ nav {
 
     .navbar-burger:hover{
         display: none;
-    } */
+    }
 
 
 }
