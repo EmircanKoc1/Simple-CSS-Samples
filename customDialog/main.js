@@ -16,3 +16,8 @@ dialog_action_ok.addEventListener("click", () => {
     open_dialog_button.removeAttribute("style", "display:none");
 });
 
+
+var h1_element = document.createElement("h1");
+h1_element.innerText = "emircan";
+dialog_box.appendChild(h1_element);
+
