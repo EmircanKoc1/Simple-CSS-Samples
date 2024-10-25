@@ -7,15 +7,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     btnOpacity.addEventListener("click", () => {
-        div.classList.remove("opacityAnimation");
-        div.classList.remove("reverseOpacityAnimation");
-        div.classList.add("opacityAnimation");
+        div.classList.remove("opacityAnimation", "reverseOpacityAnimation");
+        setTimeout(() => {
+            div.classList.add("opacityAnimation");
+        }, 10);
     });
 
     btnReverseOpacity.addEventListener("click", () => {
-        div.classList.remove("opacityAnimation");
-        div.classList.remove("reverseOpacityAnimation");
-        div.classList.add("reverseOpacityAnimation");
+        div.classList.remove("opacityAnimation", "reverseOpacityAnimation");
+        setTimeout(() => {
+            div.classList.add("reverseOpacityAnimation");
+        }, 10);
     });
 
 
