@@ -1,0 +1,24 @@
+.opacityAnimation {
+    animation: fadeAnimation 3s 1 normal;
+}
+
+.reverseOpacityAnimation {
+    animation: fadeAnimation 3s 1 reverse;
+}
+
+@keyframes fadeAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    30% {
+        opacity: 0.3;
+    }
+
+    60%{
+        opacity: 0.6;
+    }
+    100%{
+        opacity: 1;
+    }
+}
